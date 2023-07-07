@@ -42,7 +42,8 @@ Fitness Function = \
     - In the parent chromosome, the genes before and after the crossover point are divided into four segments.   
     - Then, each child will inherit a segment from each of the parents
 
-![Crossover Illustration](assests/Crossover.png)
+![Crossover Illustration](assests/Crossover.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+ 
 
 3. Mutation : Scramble Mutation
     - A subset of genes from the crossover chromosome will be picked at random
