@@ -3,11 +3,16 @@ Telecommunication tower is a structure that houses the antennae, dishes and rece
 
 The figure shows a good and bad placement of the telecommunication tower, only the good placement with less overlapping can solve the problem, whereas the bad placement has a big overlapping so it as a wasted tower. This is to make sure that the telecommunication tower can cover the signal in many areas with fewer telecommunication towers placed. Therefore, we use the Genetic Algorithm (GA) to solve this problem.
 
-![Problem Illustration](assests/problem.png)
+<p align="center">
+  <img src=assests/problem.png alt="Problem Illustration" width="80%" height="30%">
+</p>
 
 ## Genetic Algorithm’s design 
 ### Chromosome Representation
-![Chromosome Representation](assests/Chromosome.png)
+<p align="center">
+  <img src=assests/Chromosome.png alt="Chromosome Illustration" width="80%" height="30%">
+</p>
+
 
 ### Fitness Function
 There are 2 factors evaluated in fitness function:
