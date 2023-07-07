@@ -42,14 +42,18 @@ Fitness Function = \
     - In the parent chromosome, the genes before and after the crossover point are divided into four segments.   
     - Then, each child will inherit a segment from each of the parents
 
-![Crossover Illustration](assests/Crossover.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+<p align="center">
+  <img src=assests/Crossover.png alt="Crossover Illustration" width="80%" height="30%">
+</p>
  
 
 3. Mutation : Scramble Mutation
     - A subset of genes from the crossover chromosome will be picked at random
     - The alleles in those positions will be randomly rearranged
 
-![Mutation Illustration](assests/Mutation.png)
+<p align="center">
+  <img src=assests/Mutation.png alt="Mutation Illustration" width="80%" height="30%">
+</p>
 
 4. Survival Selection: Children Replace Parent
 
@@ -75,11 +79,15 @@ Parameter:
 - SIGNAL_STRENGTH = [1.0, 0.75]
 - COVERAGE_RADIUS_EACH_LEVEL = 2
 
-![Problem Illustration](assests/Tower.png)
+<p align="center">
+  <img src=assests/Tower.png alt="Problem Illustration" width="80%" height="30%">
+</p>
 
 ### Measurement Indices
 After running the Genetic Algorithm (GA), The average of current population (ACP) and best so far (BSF) will be recorded in `ACP_File.txt` and `BSF_File.txt`. ACP is to record the average solution in each generation while BSF is to record the best solution found by the algorithm for each generation. While `BC_File.txt` will record the best chromosome (best arrangement of telecommunication tower given the senario).
 
 Another file `Graph.csv` help to visualize the performance of the algorithm using graph. Sample graph: 
 
-![Performance Graph](assests/Performance.png)
+<p align="center">
+  <img src=assests/Performance.png alt="Performance Graph" width="80%" height="30%">
+</p>
